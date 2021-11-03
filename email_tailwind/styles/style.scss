@@ -57,10 +57,50 @@ body {
     margin-top: 96px;
 }
 
-.main__message{
+.main__message {
     position: absolute;
-        width: 288px;
-        height: 688px;
-        left: 16px;
-        margin-top: 640px;
+    width: 288px;
+    height: 688px;
+    left: 16px;
+    margin-top: 640px;
+}
+
+.message__text__h3 {
+    position: absolute;
+    width: 252px;
+    height: 30px;
+    left: 34px;
+    top: 683px;
+
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    color: #191919;
+}
+
+.message__text__a {
+    position: absolute;
+    width: 252px;
+    height: 360px;
+    left: 34px;
+    top: 727px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #3B3B3B;
+}
+
+.complete {
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    left: 34px;
+    top: 1232px;
+
 }
