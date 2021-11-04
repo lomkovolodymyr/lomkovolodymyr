@@ -6,6 +6,10 @@ body {
   background-color: #FFFFFF;
 }
 
+body A {
+  color: #000000;
+}
+
 #content {
   display: -ms-grid;
   display: grid;
@@ -101,5 +105,109 @@ body {
   height: 64px;
   left: 34px;
   top: 1232px;
+}
+
+.q__text__1 {
+  position: absolute;
+  width: 252px;
+  height: 120px;
+  left: 34px;
+  top: 1383px;
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.q__text__1__mailto {
+  position: absolute;
+  width: 252px;
+  height: 48px;
+  left: 34px;
+  top: 1447px;
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #000000;
+  opacity: 0.5;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.a__text__2 {
+  position: absolute;
+  width: 252px;
+  height: 48px;
+  left: 34px;
+  top: 1519px;
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.buttons__instargam {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 55px;
+  top: 1628px;
+}
+
+.buttons__facebook {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 114px;
+  top: 1628px;
+}
+
+.buttons__linkedin {
+  position: absolute;
+  width: 32px;
+  height: 29.09px;
+  left: 173px;
+  top: 1628px;
+}
+
+.buttons__twitter {
+  position: absolute;
+  width: 32px;
+  height: 26.67px;
+  left: 232px;
+  top: 1631px;
+}
+
+.footer {
+  position: absolute;
+  width: 252px;
+  height: 48px;
+  left: 34px;
+  top: 1687px;
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #191919;
 }
 /*# sourceMappingURL=style.css.map */
