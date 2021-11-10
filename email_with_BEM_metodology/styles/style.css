@@ -164,6 +164,54 @@ body {
   /* or 98% */
 }
 
+.container__header__heading__contacts {
+  position: absolute;
+  width: 141px;
+  height: 74px;
+  margin-left: -8px;
+  margin-top: 145px;
+}
+
+.buttons__phone {
+  position: absolute;
+  left: 0%;
+  right: 90.83%;
+  top: 1.2px;
+  bottom: 11.18%;
+}
+
+.buttons__email {
+  position: absolute;
+  left: 0%;
+  right: 92.82%;
+  top: 2, 35px;
+  bottom: 1.89%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.6967px;
+  line-height: 13px;
+  /* identical to box height */
+  letter-spacing: -0.0641803px;
+  color: #FFFFFF;
+}
+
+.buttons__adress {
+  position: absolute;
+  left: 0%;
+  right: 94.62%;
+  top: 72px;
+  bottom: 11.03%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-writing-mode: horizontal-tb;
+      -ms-writing-mode: lr-tb;
+          writing-mode: horizontal-tb;
+  font-size: 10.6967px;
+  line-height: 13px;
+}
+
 .container__header__heading__case {
   display: -ms-grid;
   display: grid;
