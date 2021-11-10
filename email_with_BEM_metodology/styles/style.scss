@@ -133,7 +133,7 @@ body {
     height: 281.01px;
     left: 111.38px;
     right: 221.48px;
-    margin-top: -17px;
+    margin-top: -22px;
 }
 
 .container__header__heading {
@@ -175,7 +175,7 @@ body {
     position: absolute;
     left: 0%;
     right: 92.82%;
-    top: 2, 35px;
+    top: 235px;
     bottom: 1.89%;
 
     font-family: 'Roboto', sans-serif;
@@ -190,6 +190,26 @@ body {
     color: #FFFFFF;
 }
 
+.buttons__email__text {
+    position: absolute;
+    height: 13px;
+    left: -8px;
+    right: 0.9%;
+    margin-top: 100px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.6967px;
+    line-height: 13px;
+    /* identical to box height */
+    
+    letter-spacing: -0.0641803px;
+    
+    color: #FFFFFF;
+}
+
+
 .buttons__adress {
     position: absolute;
     left: 0%;
@@ -202,6 +222,20 @@ body {
     writing-mode: horizontal-tb;
     font-size: 10.6967px;
     line-height: 13px;
+
+    &__.buttons__adress_text {
+        position: absolute;
+        left: 0%;
+        right: 94.62%;
+        top: 72px;
+        bottom: 11.03%;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        writing-mode: horizontal-tb;
+        font-size: 10.6967px;
+        line-height: 13px;
+    }
 }
 
 
