@@ -1,0 +1,180 @@
+.block grid__col_3 { 
+    margin-left: 40%;
+}
+
+.block {
+    margin-left: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    max-width: 600px;
+    height: 300px;
+    grid-gap: 30px;
+    margin-top: 201px;
+    margin-left: 133px;
+    justify-content: center;
+    background-color: #FFFFFF;
+
+}
+
+.email {  
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background: #FFFFFF;
+}
+
+.email__logo {
+position: absolute;
+width: 103px;
+height: 25px;
+left: 30px;
+top: 39px;
+}
+
+.url-email__url {
+position: absolute;
+width: 127px;
+height: 14px;
+left: 30px;
+top: 137px;
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: normal;
+font-size: 11.7331px;
+line-height: 14px;
+}
+
+A {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.item-email__facebook{
+    position: absolute;
+    width: 5px;
+    height: 9px;
+    left: 32px;
+    top: 240px;
+}
+
+.item-email__instagram{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 55px;
+    top: 240px;
+}
+
+.item-email__twitter{
+    position: absolute;
+    width: 10px;
+    height: 8px;
+    left: 79px;
+    top: 240px;
+}
+
+.item-email__youremail {
+    position: absolute;
+    width: 68px;
+    height: 12px;
+    left: 102px;
+    top: 244px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.image-email {
+    position: absolute;
+    width: 230.14px;
+    height: 281.01px;
+    left: 148.38px;
+    top: 18.99px;
+}
+
+.info-email__title {
+    position: absolute;
+    width: 211px;
+    height: 141px;
+    left: 382px;
+    top: 35px;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52.12px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.item-email__case{
+    position: absolute;
+    width: 218px;
+    height: 43px;
+    left: 382px;
+    top: 133px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20.8068px;
+    line-height: 24px;
+    color: #F15353;
+}
+
+.butons-email__phone{
+    padding-left: 0px;
+    position: absolute;
+    width: 108px;
+    height: 13px;
+    left: 384.19px;
+    top: 183.11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.6967px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.buttons-email__mail{
+    position: absolute;
+    width: 138px;
+    height: 13px;
+    left: 383.84px;
+    top: 213.27px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.6967px;
+    line-height: 13px;
+    letter-spacing: -0.0641803px;
+    color: #FFFFFF;
+}
+
+.buttons-email__adress{
+    position: absolute;
+    width: 138px;
+    height: 13px;
+    left: 385.54px;
+    top: 242.61px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.6967px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+P {
+    display: inline;
+    margin-left: 0 auto;
+    margin-top: 40px;  
+    padding-left: 10px;
+    padding-right: 2px;
+}
