@@ -169,14 +169,33 @@ body {
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     width: 32.8125rem;
     height: 1.5rem;
     left: 4.875rem;
-    top: 103.9375rem;
+    top: 95.9375rem;
     font-family: 'Heebo', sans-serif;
     font-style: normal;
+    
 }
+.link1 {
+    position:relative;
+    content: "\00a0 ""\00a0 " "\00a0 " "\00a0 ""|" ;
+    
+}    
+
+    
+.link1:before {
+    content: "\00a0 ""\00a0 " "\00a0 " "\00a0 ""|" "\00a0 " "\00a0 " "\00a0 " "\00a0 "  "\00a0 ";
+    position: absolute;
+    left: -12%;
+    padding: -5%;
+}
+.link1::after {
+    position: relative;
+    content:  "\00a0 " "\00a0 " "\00a0 " "\00a0 " "\00a0 ""\00a0 ""\00a0 ""\00a0 ""\00a0 ""\00a0 " ;
+}
+
 
 
 /*Tablets*/
