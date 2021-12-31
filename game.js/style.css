@@ -1,0 +1,54 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    background-color: grey;
+    margin-top: 0;
+}
+
+h1 {
+    margin: 20px;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 4.5rem;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color: black;
+    font-family: Nunito Sans, sans-serif;
+}
+
+img {
+    width: 100%;
+    border-radius: 30%;
+}
+
+.bottom {
+    padding-top: 40px;
+}
+
+.butn {
+    background: black;
+    font-family: Nunito Sans, sans-serif;
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #232931;
+    text-decoration: none;
+}
