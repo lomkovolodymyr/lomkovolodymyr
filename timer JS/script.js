@@ -1,4 +1,5 @@
 //'use strict'
+//Set the timer interval (number of hours)
 let date = new Date('Jan 31 2022 17:42:31')
 
 function counts() {
@@ -13,6 +14,7 @@ function counts() {
     console.log(days);
 
     if (gap < 0) {
+        //tGroup - Pluggable class (<div id="tGroup"> in html)
         document.getElementById('tGroup').innerText = "Promotion ended";
     } else {
         document.getElementById('d').innerText = days + ' Days';
